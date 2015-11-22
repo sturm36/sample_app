@@ -11,6 +11,12 @@ body {
   padding-top: 60px;
 }
 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 900px;
+    }
+}
+
 section {
   overflow: auto;
 }
@@ -45,7 +51,13 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+}
+h3 {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
 }
 
 p {
@@ -55,6 +67,8 @@ p {
 
 
 /* header */
+
+
 
 #logo {
   float: left;
@@ -70,6 +84,16 @@ p {
     text-decoration: none;
   }
 }
+.navbar {
+    background-color: #FFFFFF;
+    border-color: transparent;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: #257B32;
+}
+
+ul.nav a:hover { color: #E1DF05 !important; }
+
 
 /* footer */
 

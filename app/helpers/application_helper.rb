@@ -1,7 +1,7 @@
 module ApplicationHelper
     
     def full_title(title = '')
-       base_title = "Rails App"
+       base_title = "AK-Infotech"
        if(!title.empty?)
           title = title + "." + base_title
         else
